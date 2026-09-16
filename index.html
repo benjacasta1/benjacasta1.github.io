@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Benja | Security Portfolio</title>
+
+<link href="https://googleapis.com" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+<div class="terminal-container">
+
+<div class="terminal-header">
+
+<div class="buttons">
+
+<span class="btn close"></span>
+
+<span class="btn minimize"></span>
+
+<span class="btn maximize"></span>
+
+</div>
+
+<div class="title">benjacasta1@portfolio: ~</div>
+
+</div>
+
+
+
+<div class="terminal-body">
+
+<div class="welcome-section">
+
+<p class="prompt">benjacasta1@portfolio:~$:~$ <span class="typing-text">cat welcome.txt</span></p>
+
+<h1>BIENVENIDO A MI PORTAFOLIO DE CIBERSEGURIDAD</h1>
+
+<p class="sub-text">Resolución de laboratorios, auditorías técnicas y aprendizaje hands-on.</p>
+
+</div>
+
+
+
+<nav class="terminal-nav">
+
+<p class="prompt">benjacasta1@portfolio:~$:~$ <span class="command">ls -l /secciones</span></p>
+
+<ul>
+
+<li><button onclick="showSection('about')">drwxr-xr-x sobre_mi.txt</button></li>
+
+<li><button onclick="showSection('writeups')">drwxr-xr-x dockerlabs_writeups/</button></li>
+
+<li><button onclick="showSection('contact')">drwxr-xr-x contacto.sh</button></li>
+
+</ul>
+
+</nav>
+
+
+
+<main class="content-area">
+
+<section id="about" class="portfolio-section active">
+
+<p class="prompt">benjacasta1@portfolio:~$:~$ <span class="command">cat sobre_mi.txt</span></p>
+
+<p>[ACADEMIA] Estudiante Avanzado @ UTN FRC</p>
+
+<p>[ENFOQUE] Ciberseguridad Ofensiva, Pentesting & Análisis de Código</p>
+
+<p>[PRACTICA] Docker Labs, explotación de vulnerabilidades y Writeups técnicos</p>
+<p></p>
+
+<p>Apasionado por entender cómo funcionan los sistemas por dentro para aprender a auditarlos y defenderlos. Mi enfoque se basa en la práctica directa (hands-on) resolviendo laboratorios vulnerables, analizando configuraciones de red y documentando el proceso de explotación de manera profesional.</p>
+
+</section>
+
+
+
+<section id="writeups" class="portfolio-section">
+
+<p class="prompt">benjacasta1@portfolio:~$ <span class="command">cd dockerlabs_writeups/ && ls</span></p>
+
+<p>Aquí puedes auditar el código y el proceso de mis vulneraciones:</p>
+
+<div class="repo-link">
+
+<a href="https://github.com" target="_blank">[ REPOSITORIO OFICIAL DE WRITEUPS en GitHub ]</a>
+
+</div>
+
+</section>
+
+
+
+<section id="contact" class="portfolio-section">
+
+<p class="prompt">benjacasta1@portfolio:~$ <span class="command">./contacto.sh</span></p>
+
+<p>¿Quieres conectar conmigo o hablar sobre seguridad?</p>
+
+<p>➔ LinkedIn: <a href="#">https://www.linkedin.com/in/benjacasta1/</a></p>
+
+<p>➔ Email: <a href="mailto:tu-correo@email.com">benjamincastagno13@gmail.com</a></p>
+
+</section>
+
+</main>
+
+</div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
